@@ -1,12 +1,24 @@
 body {
-  max-width: 900px;   /* ancho determinado */
-  margin: 0 auto;     /* centra el contenido en la página */
-  text-align: center; /* centra el texto */
+  max-width: 900px;   
+  margin: 0 auto;     
+  text-align: center; 
 }
-
 .logo {
-  width: 180px;       /* ajuste del tamaño del logo */
+  width: 180px;       
   height: auto;
   display: block;
   margin: 1rem auto;
+}
+.botn {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+.botn:hover {
+  background-color: darkblue;
 }
